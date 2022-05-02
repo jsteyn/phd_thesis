@@ -1,0 +1,202 @@
+\documentclass[12pt, a4paper, onecolumn]{book}    % Current
+\usepackage{geometry}
+\geometry{left=0mm, bindingoffset=3cm}
+\usepackage{setspace}
+\renewcommand{\baselinestretch}{1.5} 
+\setlength{\parskip}{\medskipamount} \setlength{\parindent}{0em}
+\usepackage[bottom]{footmisc}
+\usepackage{acro}
+\usepackage{etoolbox}
+\usepackage{threeparttable}
+\usepackage{mwe}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage[titletoc,page]{appendix}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{newclude}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage[bookmarks]{hyperref}
+\hypersetup{
+	colorlinks	= false,
+	citecolor	= grey
+}
+\providecommand*{\glossaryname}{Neuropeptide Acronyms}
+
+\usepackage[nonumberlist]{glossaries}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\usepackage{hyperref}
+
+\hypersetup{
+	unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+	pdftitle={Analysis and Modelling of the PY Complex in the Pyloric Circuit of the Crab Stomatogastric Ganglion},
+	pdfauthor={Jannetta Sophia Steyn},
+	pdfsubject={PhD Thesis},
+	pdftoolbar=true,        % show Acrobat’s toolbar?
+	pdfmenubar=true,        % show Acrobat’s menu?
+	pdffitwindow=true,      % page fit to window when opened
+	pdfnewwindow=true,      % links in new window
+	pdfkeywords={STG, dopamine, neuroscience, modelling}, % list of keywords
+	bookmarksnumbered=true,     
+	bookmarksopen=true,         
+	bookmarksopenlevel=1,   
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=black,          % color of internal links
+	linkcolor=black,
+	citecolor=gray,        % color of links to bibliography
+	filecolor=black,      % color of file links
+	urlcolor=black           % color of external links
+}
+
+
+
+\setlength{\topmargin}{-0.8cm}
+\setlength{\textheight}{24cm}
+\raggedbottom
+
+\newcommand{\note}[1]{}
+\newcommand{\species}[1]{\textit{#1}}
+\newcommand{\matlab}{MATLAB\textsuperscript{\textregistered}}
+\AtBeginEnvironment{tablenotes}{\Large\color{red}}
+\include{abbrevs2}
+\renewcommand{\bibname}{References}
+\makeglossaries
+\acsetup{list-heading=chapter}
+
+\usepackage{titlesec}
+\titleformat{\chapter}[block]
+{\centering\fontsize{14pt}{16pt}\selectfont\bfseries}
+{\chaptertitlename~\thechapter.}
+{14pt}{}
+\titleformat{\section}[block]
+{\fontsize{12pt}{14pt}\selectfont\bfseries}
+{\thesection}
+{12pt}{}
+\titleformat{\subsection}[block]
+{\fontsize{12pt}{14pt}\selectfont\bfseries\itshape}
+{\thesubsection}
+{12pt}{}
+
+
+\begin{document}
+	%--------------------------------------------------------------------------
+	% Title page
+	\pagenumbering{gobble}
+	\clearpage\thispagestyle{empty}
+	\begin{titlepage}
+		\newpage
+		\begin{center}
+			\includegraphics[scale=0.15]{Newcastle_Master_Col.png}
+			\vspace{25mm}
+			{\bf\LARGE
+				
+				\label{Title Page}
+				Analysis and Modelling of the PY Complex in the Pyloric Circuit of the Crab Stomatogastric Ganglion 
+			}
+			
+			\vspace{25mm}
+			{\Large\bf Jannetta Sophia Steyn}
+			
+			\large School of Computing Science
+			
+			\large Newcastle University
+			
+			\vspace{25mm}
+			
+			\begin{minipage}[t]{4in}
+				\begin{center}
+					\large This thesis is submitted in partial fulfilment of the requirement for the degree of
+					
+					\large\textit{Doctor of Philosophy}
+					
+					\vspace{5mm}
+					
+					\Large March 2016                    % Submission date
+				\end{center}
+			\end{minipage}
+			
+		\end{center}
+	\end{titlepage}
+	
+	
+	%--------------------------------------------------------------------------
+	% Initial matter
+	
+	\frontmatter
+	\pagestyle{empty}
+	\include{Abstract}
+	\include{Dedication}
+	\include{Acknowledgements}
+	\include{Declaration}
+	\pagestyle{plain}
+	\include{Publications}
+	%\acresetall % Reset acronyms - they'll be displayed in full again
+	
+	
+	%\begin{singlespace}
+	\setcounter{tocdepth}{3}
+	\setcounter{secnumdepth}{3}
+	
+	%\cleardoublepage
+	\pdfbookmark{\contentsname}{Contents}
+	\tableofcontents
+	
+	%\cleardoublepage
+	\pdfbookmark{List of Figures}{lof}
+	\addcontentsline{toc}{chapter}{\listfigurename}
+	\listoffigures
+	
+	%\cleardoublepage
+	\pdfbookmark{List of Tables}{lot}
+	\addcontentsline{toc}{chapter}{\listtablename}
+	\listoftables
+	
+	\pdfbookmark{Acronyms}{acro}
+	\addcontentsline{toc}{chapter}{Acronyms}
+	\printacronyms[name=Acronyms]
+	
+	\include{abbrevs3}
+	\addcontentsline{toc}{chapter}{Neuropeptide Acronyms}
+	\glsaddall
+	\printglossaries
+	
+	\mainmatter
+	\pagenumbering{arabic}
+	%\printglossaries
+	
+	\setcounter{secnumdepth}{15}
+	%\acresetall % Reset acronyms - they'll be displayed in full again
+	\include{Chapter1}%Introduction
+	\include{Chapter2}%Background
+	\include{Chapter3}%Methods and Materials
+	\include{Chapter4}%Methods and Materials
+	\include{Chapter5}
+	\include{Chapter6}
+	\include{Chapter7}
+	
+	% Appendix
+	%\renewcommand{\thechapter} {\Alph{appendix}}
+	\appendix
+	
+	\label{Appendices}
+	\begin{appendices}
+		
+		\include{HH}
+		
+		\include{Dissection}
+	\end{appendices}
+	
+	\bibliographystyle{acm}
+	\cleardoublepage
+	\pdfbookmark{References}{bib}
+	\bibliography{research}
+	\addcontentsline{toc}{chapter}{References}
+	
+	
+\end{document}

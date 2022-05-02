@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="lapricque.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="DotL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotL"
+       style="overflow:visible">
+      <path
+         id="path3826"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(7.4, 1)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.60798189"
+     inkscape:cx="264.77478"
+     inkscape:cy="137.49295"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox="false"
+     inkscape:snap-global="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="746"
+     inkscape:window-x="255"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       orientation="0,1"
+       position="162.85714,660"
+       id="guide2985" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="243.43464,364.5464"
+       id="guide2987" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="451.42857,660"
+       id="guide2989" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="494.29167,510.57422"
+       id="guide4906" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-143.05382,480"
+       id="guide4908" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-80.249707,450"
+       id="guide4910" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="217.48834,420"
+       id="guide4919" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="151.1951,390"
+       id="guide4921" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="151.1951,360"
+       id="guide4923" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="480.3352,450"
+       id="guide4925" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="507.0851,495"
+       id="guide4927" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="583.84569,465"
+       id="guide4929" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="544.30236,435"
+       id="guide4931" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="419.85716,550.11755"
+       id="guide4933" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="480.3352,375"
+       id="guide4937" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotL);marker-end:url(#DotL)"
+       d="m 36.289037,392.36218 415.139533,0 0,149.42578 28.90663,15.57422 -28.90663,15 -31.57141,15 31.57141,15 28.90663,15 -28.90663,15 -31.57141,15 31.57141,15 28.90663,15 -28.90663,15 0,249.2209"
+       id="path2991"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccc"
+       inkscape:export-filename="C:\Users\jannetta\Dropbox\Thesis\js_thesis\graphics\lapricque.png"
+       inkscape:export-xdpi="186.55"
+       inkscape:export-ydpi="186.55" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 244.66107,392.36218 c 0,217.83351 0,217.83351 0,217.83351"
+       id="path4569"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\jannetta\Dropbox\Thesis\js_thesis\graphics\lapricque.png"
+       inkscape:export-xdpi="186.55"
+       inkscape:export-ydpi="186.55" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 208.49876,610.19569 72.32463,0"
+       id="path4571"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\jannetta\Dropbox\Thesis\js_thesis\graphics\lapricque.png"
+       inkscape:export-xdpi="186.55"
+       inkscape:export-ydpi="186.55" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 207.85421,649.61173 72.32463,0"
+       id="path4571-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\jannetta\Dropbox\Thesis\js_thesis\graphics\lapricque.png"
+       inkscape:export-xdpi="186.55"
+       inkscape:export-ydpi="186.55" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 243.43464,651.25547 1.22643,318.91963"
+       id="path4657"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\jannetta\Dropbox\Thesis\js_thesis\graphics\lapricque.png"
+       inkscape:export-xdpi="186.55"
+       inkscape:export-ydpi="186.55" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 208.49876,970.17511 72.32463,0"
+       id="path4571-1-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\jannetta\Dropbox\Thesis\js_thesis\graphics\lapricque.png"
+       inkscape:export-xdpi="186.55"
+       inkscape:export-ydpi="186.55" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 218.45235,975.98672 52.41745,0"
+       id="path4571-1-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\jannetta\Dropbox\Thesis\js_thesis\graphics\lapricque.png"
+       inkscape:export-xdpi="186.55"
+       inkscape:export-ydpi="186.55" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 226.08857,981.79833 37.14501,0"
+       id="path4571-1-4-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\jannetta\Dropbox\Thesis\js_thesis\graphics\lapricque.png"
+       inkscape:export-xdpi="186.55"
+       inkscape:export-ydpi="186.55" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 235.21614,987.60993 18.88987,0"
+       id="path4571-1-4-0-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\jannetta\Dropbox\Thesis\js_thesis\graphics\lapricque.png"
+       inkscape:export-xdpi="186.55"
+       inkscape:export-ydpi="186.55" />
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="125.60824"
+       y="656.547"
+       id="text4939"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\jannetta\Dropbox\Thesis\js_thesis\graphics\lapricque.png"
+       inkscape:export-xdpi="186.55"
+       inkscape:export-ydpi="186.55"><tspan
+         sodipodi:role="line"
+         id="tspan4941"
+         x="125.60824"
+         y="656.547">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="496.61774"
+       y="639.48328"
+       id="text4943"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\jannetta\Dropbox\Thesis\js_thesis\graphics\lapricque.png"
+       inkscape:export-xdpi="186.55"
+       inkscape:export-ydpi="186.55"><tspan
+         sodipodi:role="line"
+         id="tspan4945"
+         x="496.61774"
+         y="639.48328">R</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="304.28537"
+       y="363.1969"
+       id="text4947"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\jannetta\Dropbox\Thesis\js_thesis\graphics\lapricque.png"
+       inkscape:export-xdpi="186.55"
+       inkscape:export-ydpi="186.55"><tspan
+         sodipodi:role="line"
+         id="tspan4949"
+         x="304.28537"
+         y="363.1969">V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="-54.277931"
+       y="409.25092"
+       id="text4951"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\jannetta\Dropbox\Thesis\js_thesis\graphics\lapricque.png"
+       inkscape:export-xdpi="186.55"
+       inkscape:export-ydpi="186.55"><tspan
+         sodipodi:role="line"
+         id="tspan4953"
+         x="-54.277931"
+         y="409.25092">I</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="427.64432"
+       y="1030.98"
+       id="text4955"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\jannetta\Dropbox\Thesis\js_thesis\graphics\lapricque.png"
+       inkscape:export-xdpi="186.55"
+       inkscape:export-ydpi="186.55"><tspan
+         sodipodi:role="line"
+         id="tspan4957"
+         x="427.64432"
+         y="1030.98">V<tspan
+   style="font-size:56px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans Bold"
+   id="tspan4959">rest</tspan></tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4961"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Sans;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"><flowRegion
+         id="flowRegion4963"><rect
+           id="rect4965"
+           width="736.86407"
+           height="455.60568"
+           x="-103.62151"
+           y="305.62939" /></flowRegion><flowPara
+         id="flowPara4967"></flowPara></flowRoot>  </g>
+</svg>

@@ -1,0 +1,43 @@
+\documentclass[12pt, a4paper, onecolumn, oneside]{book}    % Current
+\usepackage{acro}
+\include{abbrevs2}
+
+\begin{document}
+
+\section{Neuron Models}
+
+\begin{table}[H]
+	\centering
+	\caption{\textbf{A list of published \ac{STG} models by various researchers, showing the number of neurons simulated and the equations used in the model}}
+	\label{tab:modelparameters1}
+	\begin{tabular}{l l l c l l}	
+		\textbf{Paper} & \textbf{Neurons} & \textbf{Species} & \textbf{\#}  & Equations & \textbf{Notes}\\ \hline
+		Buchholz 1992 \cite{Buchholtz1992} & LP & \textit{Cancer borealis} & 1 & Hodgkin-Huxley & \\
+		Epstein 1990 \cite{Epstein1990} & ? & crustacean & 1 & Hodgkin-Huxley & Three models of  \\
+		& & & & & individual neurons\\
+		Golowasch 1992 \cite{Golowasch1992} & crustacean & LP & 1 & Hodgkin-Huxley & \\ 
+		Prinz 2003 \cite{Prinz2003a} & PD & lobster & 1 & Hodgkin-Huxley & Database of 1.7 million \\
+		& & & & & single-compartment \\
+		& & & & & models\\
+		\hline
+		Abbot 1991 \cite{Abbott1991} & AB, PD & crustacean & 2 &  FitzHugh-Nagumo & \\
+		Golowasch 1999 \cite{Golowasch1999a} & AB/PD, PY & \textit{Cancer borealis} &2 & Hodgkin-Huxley & AB/PD modelled as \\
+		& & & & & one\\
+		Soto-Trevino 2005 \cite{Soto-Trevino2005} & AB, PD & crustacean  & 2 & Hodgkin-Huxley & \\
+		\hline
+		Hartline 1979 \cite{Hartline1979} & AB/PD, & \textit{Panulirus} & 3 &  & AB/PD modelled as\\
+		&  LP, PY & & & & one\\
+		Warshaw 1976 \cite{Warshaw1976} & LP, PD, PY,& \textit{Panulirus} & 5 & & \\
+		& VD, IC & & & & \\
+		\hline
+		Gutierrez 2013 \cite{Gutierrez2013} & IC, LP, & general & 5 & Morris-Lecar & Illustrating circuit \\
+		& LG, PD, Int1 & & & & switching\\
+	\end{tabular}
+\end{table}
+
+
+\bibliographystyle{acm}
+\cleardoublepage
+
+\bibliography{research}
+\end{document}

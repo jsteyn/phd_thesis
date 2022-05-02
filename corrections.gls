@@ -1,0 +1,55 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{glssymbols}\relax \glsresetentrylist %
+\glossentry{5HT}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}\glsgroupskip
+\glsgroupheading{A}\relax \glsresetentrylist %
+\glossentry{ACh}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}%
+\glossentry{AST}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}%
+\glossentry{ATR}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}\glsgroupskip
+\glsgroupheading{B}\relax \glsresetentrylist %
+\glossentry{BUC}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}\glsgroupskip
+\glsgroupheading{C}\relax \glsresetentrylist %
+\glossentry{CabTRP}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}%
+\glossentry{CCK}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}%
+\glossentry{COR}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}\glsgroupskip
+\glsgroupheading{D}\relax \glsresetentrylist %
+\glossentry{DA}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}\glsgroupskip
+\glsgroupheading{F}\relax \glsresetentrylist %
+\glossentry{FLRF}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}\glsgroupskip
+\glsgroupheading{G}\relax \glsresetentrylist %
+\glossentry{GABA}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}\glsgroupskip
+\glsgroupheading{H}\relax \glsresetentrylist %
+\glossentry{HA}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}\glsgroupskip
+\glsgroupheading{M}\relax \glsresetentrylist %
+\glossentry{MYO}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}\glsgroupskip
+\glsgroupheading{N}\relax \glsresetentrylist %
+\glossentry{NO}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}\glsgroupskip
+\glsgroupheading{P}\relax \glsresetentrylist %
+\glossentry{PDH}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}%
+\glossentry{PROC}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}\glsgroupskip
+\glsgroupheading{R}\relax \glsresetentrylist %
+\glossentry{RPCH}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}\glsgroupskip
+\glsgroupheading{S}\relax \glsresetentrylist %
+\glossentry{SDRN}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}\glsgroupskip
+\glsgroupheading{T}\relax \glsresetentrylist %
+\glossentry{TNRN}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{xxvi}}}%
+\end{theglossary}\glossarypostamble

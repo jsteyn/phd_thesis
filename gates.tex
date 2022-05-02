@@ -1,0 +1,72 @@
+\begin{table}[H]
+	\centering
+	\caption{\ac{PD} and \ac{AB} voltage and calcium dependency for the steady-state activation $m$ and inactivation $h$ of the currents (adopted from \cite{Soto-Trevino2005} and \cite{Golowasch1999a})}
+	\label{tab:gates}
+	{\renewcommand{\arraystretch}{2}%
+	\begin{tabular}{lcll}
+		\hline
+		& $m,h$ & $x_{\infty}$ & $\tau_{x}$,ms \\
+		\hline
+		% --- INa ---
+		\multirow{3}{*}{ $I_{Na^{+}}$ } & $m^{3}$  & $\dfrac{1}{1+exp [ - ( V+24.7 / 5.29 ) ] }$ & $1.32 - \dfrac{1.26}{1+ exp \lbrack -( V+120 / 25 ) \rbrack}$ \\
+		& $h$ & $\dfrac{1}{1 + exp [ ( V + 48.9 ) / 5.18 ]}$ & $ \Bigg\{ \dfrac{0.67}{1 + exp [ - ( V + 62.9 ) / 10] } \Bigg\} $ \\ 
+		& & & $ \times \Bigg\{ 1.5 + \dfrac{1}{1 + exp [ ( V + 34.9 ) / 3.6 ] } \Bigg\} $ \\
+		% --- IK ---
+		$I_{K}$ & $m^{4}$ & $\dfrac{1}{ 1 + exp [ - ( V + 14.2 ) / 11.8 ]}$ & $7.2 - \dfrac{6.4}{ 1 + exp [ - ( V + 28.3 ) / 19.2] } $ \\
+		% --- ICaT ---
+		\multirow{3}{*}{ $ I_{CaT} $} & $m^{3}$ & $\dfrac{1}{ 1 + exp [ -( V + 25 ) / 7.2 ]}$ & $ 55 - \dfrac{49.5}{ 1 + exp [ - ( V + 48 ) / 17  ] } $ \\
+		& $h$ & $ \dfrac{1}{ 1 + exp [ ( V + 36 ) / 7 ] } $ & AB:$ 87.5 - \dfrac{75}{ 1 + exp [ - ( V + 50 ) / 16.9 ] } $\\
+		& & & PD:$ 350 - \dfrac{300}{ 1 + exp [ - ( V + 50 ) / 16.9] } $ \\
+		% --- ICaS ---
+		$ I_{CaS} $ & $ m^{3} $ & $ \dfrac{1}{ 1 + exp [ - ( V + 22) / 8.4 ] } $ & $ 16 - \dfrac{13.1}{ 1 + exp [ - ( V + 25.1 ) / 26.4 ] } $ \\
+		% --- INap ---
+		\multirow{2}{*}{ $ I_{Nap} $ } &  $ m^{3} $ & $ \dfrac{1}{ 1 + exp [ - ( V + 26.8 ) / 8.2 ] } $ & $ 19.8 - \dfrac{10.7}{ 1 + exp [ - (V + 26.5 ) / 8.6 ] } $ \\
+		& $ h $ & $ \dfrac{1}{ 1 + exp [ ( V + 48.5 ) 4.8 ] } $ & $ 666 - \dfrac{379}{ 1 + exp [ - ( V + 33.6 ) / 11.7 ] }$ \\
+		% --- h ---
+		$ I_{h} $ & $ m $ & $ \dfrac{1}{ 1 + exp [ ( V + 70 ) / 6 ] } $ & $ 272 + \dfrac{1499}{ 1 + exp [ - ( V + 42.2 ) / 8.73 ] } $ \\
+		% --- KCa ---
+		% ----------- AB
+		\multirow{2}{*}{ $I_{KCa}$ } & \multirow{2}{*}{ $m^{4}$ } & AB:$ \Bigg( \dfrac{ [ Ca ] }{ [ Ca ] + 30 } \Bigg) \times $ &  $ 90.3 - \dfrac{75.09}{ 1 + exp [ - ( V + 46 ) / 22.7] } $\\
+		& & $\dfrac{1}{ 1 + exp [ - ( V + 51 ) / 4 ] } $ & \\
+		% ----------- PD
+		& & PD: $ \Bigg( \dfrac{ [ Ca ] }{ [ Ca ] + 30 }\Bigg) \times $ & \\
+		& & $\dfrac{1}{ 1 + exp ([ - ( V + 51 ) / 8 ]) } $ & \\
+		% --- IA ---
+		\multirow{3}{*}{ $ I_{A} $ }& $ m^{3} $ (AB) & \multirow{2}{*}{$ \dfrac{1}{ 1 + exp [ - ( V + 27 ) / 8.7 ]}$} & \multirow{2}{*}{$ 11.6 - \dfrac{10.4}{ 1 + exp [ - ( V + 32.9 ) / 15.2 ] } $} \\
+		& $m^{4}$ (PD) & &  \\
+		& $h$ & $\dfrac{1}{ 1 + exp [ ( V + 45.9 ) / 4.9 ] } $ & $ 38.6 - \dfrac{29.2}{ 1 + exp [ - ( V + 38.9 ) / 26.5 ] }$ \\ 
+		$I_{proc}$ & $m$ & $ \dfrac{1}{ 1 + exp [ - ( V + 12 ) / 3.05 ] }$ & $ 0.5 $ \\		
+		\hline
+	\end{tabular}
+	}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\caption{\ac{LP} and \ac{PY} voltage and calcium dependency for the steady-state activation $m$ and inactivation $h$ of the currents (adopted from \cite{Golowasch1999a})}
+	\label{tab:gates2}
+	{\renewcommand{\arraystretch}{2}%
+		\begin{tabular}{lcll}
+		\hline
+		& $m,h$ & $x_{\infty}$ & $\tau_{x}$,ms \\
+		\hline
+		% --- Ca ---
+		\multirow{2}{*}{ $I_{Ca}$ } & $m$ & $\dfrac{1}{ 1 + exp [ 0.205 ( - 61.2 - V ) ] }$ & $ 30 + \dfrac{-5}{ 1 + exp [ 0.2 ( -65 - V ) ] } $ \\
+		& $h$ & $\dfrac{1}{ 1 + exp [ -0.15 ( - 75 - V ) ] } $ & $ 150 $\\
+		% --- K ---
+		$I_{K}$ & $m$ & $ \dfrac{1}{ 1 + exp [ 0.1 ( -35 - V ) ] } $ & $ 2 + \dfrac{55}{ 1 + exp [ -0.125 (-54-V ) ] } $ \\
+		% --- A ---
+		\multirow{3}{*}{$I_{A}$} & \multirow{2}{*}{ $m$ } & PY:$ \dfrac{1}{1 + exp[ 0.2 ( -51 - V ) ] } $ & \multirow{2}{*}{$0.1$} \\
+		& & LP: $\dfrac{1}{ 1 + exp [ 0.2 ( -60 - V ) ] } $ & \\
+		& $h$ & $\dfrac{1}{ 1 + exp [ -0.18 ( -68 - V ) ] } $ & $50$ \\
+		% --- P ---
+		$I_{P}$ & $m$ & $ \dfrac{1}{1 + exp [ 0.2 ( -55 - V ) ] } $ & $6$ \\
+		% --- Na ---
+		\multirow{2}{*}{$I_{Na}$} & $m^{3}$ & $ \dfrac{1}{1 + exp[ 0.1 ( -42.5 - V ) ]} $ & $0.025$ \\
+		& $h$ & $\dfrac{1}{1 + exp[ -0.13 * ( -50 - V ) ] } $ & $ \dfrac{10}{ 1 + exp [ 0.12 ( -77 - V ) ] } $ \\
+		% ---Kd ---
+		$I_{Kd} $ & $m^{4}$ & $ \dfrac{1}{ 1 + exp [ 0.2 ( -41 - V ) ] } $ & $ 12.2 + \dfrac{10.5}{1 + exp [ - .05 ( 58 - V ) ] } $ \\
+		\hline
+		\end{tabular}
+	}
+\end{table}
